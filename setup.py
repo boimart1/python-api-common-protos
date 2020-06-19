@@ -18,9 +18,9 @@ import os
 import setuptools
 from setuptools import setup, find_packages
 
-name = "googleapis-common-protos"
+name = "optel-googleapis-common-protos"
 description = "Common protobufs used in Google APIs"
-version = "1.52.0"
+version = "1.53.0"
 release_status = "Development Status :: 5 - Production/Stable"
 dependencies = ["protobuf >= 3.6.0"]
 
