@@ -21,6 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.api",
     syntax="proto3",
     serialized_options=b"\n\016com.google.apiB\020AnnotationsProtoP\001ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\242\002\004GAPI",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b'\n\x1cgoogle/api/annotations.proto\x12\ngoogle.api\x1a\x15google/api/http.proto\x1a google/protobuf/descriptor.proto:E\n\x04http\x12\x1e.google.protobuf.MethodOptions\x18\xb0\xca\xbc" \x01(\x0b\x32\x14.google.api.HttpRuleBn\n\x0e\x63om.google.apiB\x10\x41nnotationsProtoP\x01ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\xa2\x02\x04GAPIb\x06proto3',
     dependencies=[
         google_dot_api_dot_http__pb2.DESCRIPTOR,
@@ -47,6 +48,7 @@ http = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 
 DESCRIPTOR.extensions_by_name["http"] = http

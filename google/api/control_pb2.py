@@ -17,6 +17,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.api",
     syntax="proto3",
     serialized_options=b"\n\016com.google.apiB\014ControlProtoP\001ZEgoogle.golang.org/genproto/googleapis/api/serviceconfig;serviceconfig\242\002\004GAPI",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b'\n\x18google/api/control.proto\x12\ngoogle.api"\x1e\n\x07\x43ontrol\x12\x13\n\x0b\x65nvironment\x18\x01 \x01(\tBn\n\x0e\x63om.google.apiB\x0c\x43ontrolProtoP\x01ZEgoogle.golang.org/genproto/googleapis/api/serviceconfig;serviceconfig\xa2\x02\x04GAPIb\x06proto3',
 )
 
@@ -27,6 +28,7 @@ _CONTROL = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="environment",
@@ -45,6 +47,7 @@ _CONTROL = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         )
     ],
     extensions=[],

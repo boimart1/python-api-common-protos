@@ -17,6 +17,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.type",
     syntax="proto3",
     serialized_options=b"\n\017com.google.typeB\016TimeOfDayProtoP\001Z>google.golang.org/genproto/googleapis/type/timeofday;timeofday\370\001\001\242\002\003GTP",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b'\n\x1bgoogle/type/timeofday.proto\x12\x0bgoogle.type"K\n\tTimeOfDay\x12\r\n\x05hours\x18\x01 \x01(\x05\x12\x0f\n\x07minutes\x18\x02 \x01(\x05\x12\x0f\n\x07seconds\x18\x03 \x01(\x05\x12\r\n\x05nanos\x18\x04 \x01(\x05\x42l\n\x0f\x63om.google.typeB\x0eTimeOfDayProtoP\x01Z>google.golang.org/genproto/googleapis/type/timeofday;timeofday\xf8\x01\x01\xa2\x02\x03GTPb\x06proto3',
 )
 
@@ -27,6 +28,7 @@ _TIMEOFDAY = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="hours",
@@ -45,6 +47,7 @@ _TIMEOFDAY = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="minutes",
@@ -63,6 +66,7 @@ _TIMEOFDAY = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="seconds",
@@ -81,6 +85,7 @@ _TIMEOFDAY = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="nanos",
@@ -99,6 +104,7 @@ _TIMEOFDAY = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     extensions=[],

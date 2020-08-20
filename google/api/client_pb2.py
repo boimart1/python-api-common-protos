@@ -20,6 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.api",
     syntax="proto3",
     serialized_options=b"\n\016com.google.apiB\013ClientProtoP\001ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\242\002\004GAPI",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b"\n\x17google/api/client.proto\x12\ngoogle.api\x1a google/protobuf/descriptor.proto:6\n\x0c\x64\x65\x66\x61ult_host\x12\x1f.google.protobuf.ServiceOptions\x18\x99\x08 \x01(\t:6\n\x0coauth_scopes\x12\x1f.google.protobuf.ServiceOptions\x18\x9a\x08 \x01(\t:9\n\x10method_signature\x12\x1e.google.protobuf.MethodOptions\x18\x9b\x08 \x03(\tBi\n\x0e\x63om.google.apiB\x0b\x43lientProtoP\x01ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\xa2\x02\x04GAPIb\x06proto3",
     dependencies=[google_dot_protobuf_dot_descriptor__pb2.DESCRIPTOR],
 )
@@ -43,6 +44,7 @@ default_host = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 OAUTH_SCOPES_FIELD_NUMBER = 1050
 oauth_scopes = _descriptor.FieldDescriptor(
@@ -62,6 +64,7 @@ oauth_scopes = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 METHOD_SIGNATURE_FIELD_NUMBER = 1051
 method_signature = _descriptor.FieldDescriptor(
@@ -81,6 +84,7 @@ method_signature = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 
 DESCRIPTOR.extensions_by_name["default_host"] = default_host

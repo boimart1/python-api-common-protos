@@ -20,6 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.api",
     syntax="proto3",
     serialized_options=b"\n\016com.google.apiB\nUsageProtoP\001ZEgoogle.golang.org/genproto/googleapis/api/serviceconfig;serviceconfig\242\002\004GAPI",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b'\n\x16google/api/usage.proto\x12\ngoogle.api\x1a\x1cgoogle/api/annotations.proto"j\n\x05Usage\x12\x14\n\x0crequirements\x18\x01 \x03(\t\x12$\n\x05rules\x18\x06 \x03(\x0b\x32\x15.google.api.UsageRule\x12%\n\x1dproducer_notification_channel\x18\x07 \x01(\t"]\n\tUsageRule\x12\x10\n\x08selector\x18\x01 \x01(\t\x12 \n\x18\x61llow_unregistered_calls\x18\x02 \x01(\x08\x12\x1c\n\x14skip_service_control\x18\x03 \x01(\x08\x42l\n\x0e\x63om.google.apiB\nUsageProtoP\x01ZEgoogle.golang.org/genproto/googleapis/api/serviceconfig;serviceconfig\xa2\x02\x04GAPIb\x06proto3',
     dependencies=[google_dot_api_dot_annotations__pb2.DESCRIPTOR],
 )
@@ -31,6 +32,7 @@ _USAGE = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="requirements",
@@ -49,6 +51,7 @@ _USAGE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="rules",
@@ -67,6 +70,7 @@ _USAGE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="producer_notification_channel",
@@ -85,6 +89,7 @@ _USAGE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     extensions=[],
@@ -106,6 +111,7 @@ _USAGERULE = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="selector",
@@ -124,6 +130,7 @@ _USAGERULE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="allow_unregistered_calls",
@@ -142,6 +149,7 @@ _USAGERULE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="skip_service_control",
@@ -160,6 +168,7 @@ _USAGERULE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     extensions=[],

@@ -20,6 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
     package="google.api",
     syntax="proto3",
     serialized_options=b"\n\016com.google.apiB\rResourceProtoP\001ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\370\001\001\242\002\004GAPI",
+    create_key=_descriptor._internal_create_key,
     serialized_pb=b'\n\x19google/api/resource.proto\x12\ngoogle.api\x1a google/protobuf/descriptor.proto"\xff\x01\n\x12ResourceDescriptor\x12\x0c\n\x04type\x18\x01 \x01(\t\x12\x0f\n\x07pattern\x18\x02 \x03(\t\x12\x12\n\nname_field\x18\x03 \x01(\t\x12\x37\n\x07history\x18\x04 \x01(\x0e\x32&.google.api.ResourceDescriptor.History\x12\x0e\n\x06plural\x18\x05 \x01(\t\x12\x10\n\x08singular\x18\x06 \x01(\t"[\n\x07History\x12\x17\n\x13HISTORY_UNSPECIFIED\x10\x00\x12\x1d\n\x19ORIGINALLY_SINGLE_PATTERN\x10\x01\x12\x18\n\x14\x46UTURE_MULTI_PATTERN\x10\x02"5\n\x11ResourceReference\x12\x0c\n\x04type\x18\x01 \x01(\t\x12\x12\n\nchild_type\x18\x02 \x01(\t:Y\n\x12resource_reference\x12\x1d.google.protobuf.FieldOptions\x18\x9f\x08 \x01(\x0b\x32\x1d.google.api.ResourceReference:Z\n\x13resource_definition\x12\x1c.google.protobuf.FileOptions\x18\x9d\x08 \x03(\x0b\x32\x1e.google.api.ResourceDescriptor:R\n\x08resource\x12\x1f.google.protobuf.MessageOptions\x18\x9d\x08 \x01(\x0b\x32\x1e.google.api.ResourceDescriptorBn\n\x0e\x63om.google.apiB\rResourceProtoP\x01ZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations\xf8\x01\x01\xa2\x02\x04GAPIb\x06proto3',
     dependencies=[google_dot_protobuf_dot_descriptor__pb2.DESCRIPTOR],
 )
@@ -43,6 +44,7 @@ resource_reference = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 RESOURCE_DEFINITION_FIELD_NUMBER = 1053
 resource_definition = _descriptor.FieldDescriptor(
@@ -62,6 +64,7 @@ resource_definition = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 RESOURCE_FIELD_NUMBER = 1053
 resource = _descriptor.FieldDescriptor(
@@ -81,6 +84,7 @@ resource = _descriptor.FieldDescriptor(
     extension_scope=None,
     serialized_options=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
 )
 
 _RESOURCEDESCRIPTOR_HISTORY = _descriptor.EnumDescriptor(
@@ -88,6 +92,7 @@ _RESOURCEDESCRIPTOR_HISTORY = _descriptor.EnumDescriptor(
     full_name="google.api.ResourceDescriptor.History",
     filename=None,
     file=DESCRIPTOR,
+    create_key=_descriptor._internal_create_key,
     values=[
         _descriptor.EnumValueDescriptor(
             name="HISTORY_UNSPECIFIED",
@@ -95,6 +100,7 @@ _RESOURCEDESCRIPTOR_HISTORY = _descriptor.EnumDescriptor(
             number=0,
             serialized_options=None,
             type=None,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.EnumValueDescriptor(
             name="ORIGINALLY_SINGLE_PATTERN",
@@ -102,6 +108,7 @@ _RESOURCEDESCRIPTOR_HISTORY = _descriptor.EnumDescriptor(
             number=1,
             serialized_options=None,
             type=None,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.EnumValueDescriptor(
             name="FUTURE_MULTI_PATTERN",
@@ -109,6 +116,7 @@ _RESOURCEDESCRIPTOR_HISTORY = _descriptor.EnumDescriptor(
             number=2,
             serialized_options=None,
             type=None,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     containing_type=None,
@@ -125,6 +133,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="type",
@@ -143,6 +152,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="pattern",
@@ -161,6 +171,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="name_field",
@@ -179,6 +190,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="history",
@@ -197,6 +209,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="plural",
@@ -215,6 +228,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="singular",
@@ -233,6 +247,7 @@ _RESOURCEDESCRIPTOR = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     extensions=[],
@@ -254,6 +269,7 @@ _RESOURCEREFERENCE = _descriptor.Descriptor(
     filename=None,
     file=DESCRIPTOR,
     containing_type=None,
+    create_key=_descriptor._internal_create_key,
     fields=[
         _descriptor.FieldDescriptor(
             name="type",
@@ -272,6 +288,7 @@ _RESOURCEREFERENCE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
         _descriptor.FieldDescriptor(
             name="child_type",
@@ -290,6 +307,7 @@ _RESOURCEREFERENCE = _descriptor.Descriptor(
             extension_scope=None,
             serialized_options=None,
             file=DESCRIPTOR,
+            create_key=_descriptor._internal_create_key,
         ),
     ],
     extensions=[],
