@@ -20,9 +20,9 @@ from setuptools import setup, find_packages
 
 name = "optel-googleapis-common-protos"
 description = "Common protobufs used in Google APIs"
-version = "1.53.0"
+version = "1.53.1"
 release_status = "Development Status :: 5 - Production/Stable"
-dependencies = ["protobuf >= 3.6.0"]
+dependencies = ["protobuf >= 3.13.0, < 4"]
 
 extras_require = {"grpc": ["grpcio >= 1.0.0"]}
 

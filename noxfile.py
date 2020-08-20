@@ -165,7 +165,7 @@ def generate_protos(session):
         "google/longrunning/operations_pb2-COPY.py",
     )
 
-    session.install("grpcio-tools")
+    session.install("grpcio-tools==1.30.0")
     protos = [str(p) for p in (Path(".").glob("google/**/*.proto"))]
     session.run(
         "python", "-m", "grpc_tools.protoc", "--proto_path=.", "--python_out=.", *protos
