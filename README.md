@@ -7,7 +7,7 @@
 googleapis-common-protos contains the python classes generated from the common
 protos in the [googleapis/api-common-protos](https://github.com/googleapis/api-common-protos) repository.
 
-## Quick guide for generating the Optel package
+## How to manually update the Optel package on Artifactory
 
 1. Setup or activate your virtual environment:
    1. If you do not already have virtualenv globally installed, run: `py -3 -m pip install virtualenv`
@@ -20,4 +20,4 @@ protos in the [googleapis/api-common-protos](https://github.com/googleapis/api-c
 5. Commit the newly-generated files.
 6. If `dist/` already exists, delete it: `rmdir /S /Q dist`
 7. Generate the package wheel: `setup.py bdist_wheel`
-8. Push the package to Artifactory: `twine upload --repository-url https://artifactory.dev.optelgroup.com/artifactory/api/pypi/ds-pypi-dev-local dist/* -u <ARTIFACTORY_USERNAME> -p <ARTIFACTORY_PASSWORD>`, where ARTIFACTORY_USERNAME/PASSWORD are your credentials.
+8. Push the package to Artifactory: `twine upload --repository-url https://artifactory.dev.optelgroup.com/artifactory/api/pypi/ds-pypi-dev-local dist/* -u <ARTIFACTORY_USERNAME> -p <ARTIFACTORY_PASSWORD>`, where `<ARTIFACTORY_USERNAME>` and `<ARTIFACTORY_PASSWORD>` are your credentials.
